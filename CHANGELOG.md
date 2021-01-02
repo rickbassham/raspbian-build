@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/rickbassham/raspbian-build/compare/v1.0.0...v1.0.1) (2021-01-02)
+
+
+### Bug Fixes
+
+* add docker buildx setup back ([cd735a0](https://github.com/rickbassham/raspbian-build/commit/cd735a07536883e1cf7042936e665cbcafc7ebad))
+
 # 1.0.0 (2021-01-02)
 
 
