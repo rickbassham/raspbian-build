@@ -1,3 +1,10 @@
+## [1.0.8](https://github.com/rickbassham/raspbian-build/compare/v1.0.7...v1.0.8) (2021-01-02)
+
+
+### Bug Fixes
+
+* remove unnecessary package ([c3cef4d](https://github.com/rickbassham/raspbian-build/commit/c3cef4df793db889dabea8b4a027e697ff984919))
+
 ## [1.0.7](https://github.com/rickbassham/raspbian-build/compare/v1.0.6...v1.0.7) (2021-01-02)
 
 
