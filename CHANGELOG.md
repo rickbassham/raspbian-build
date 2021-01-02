@@ -1,3 +1,10 @@
+## [1.0.6](https://github.com/rickbassham/raspbian-build/compare/v1.0.5...v1.0.6) (2021-01-02)
+
+
+### Bug Fixes
+
+* something else to try ([806f1da](https://github.com/rickbassham/raspbian-build/commit/806f1dad44872bbfa43b4b02ffe7355712a2a9f1))
+
 ## [1.0.5](https://github.com/rickbassham/raspbian-build/compare/v1.0.4...v1.0.5) (2021-01-02)
 
 
