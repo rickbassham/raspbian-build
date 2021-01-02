@@ -7,7 +7,7 @@ RUN apt-get update \
     && apt-get install -y apt-utils \
     && dpkg-reconfigure apt-utils \
     && apt-get install -y \
-    qemu-user-static debootstrap fakechroot \
+    qemu-user-static debootstrap \
     && rm -rf /var/lib/apt/lists/*
 
 RUN mkdir /raspbian
