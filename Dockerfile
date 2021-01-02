@@ -13,7 +13,7 @@ RUN apt-get update \
 RUN mkdir /raspbian
 RUN debootstrap --no-check-gpg --foreign --arch=armhf buster /raspbian https://archive.raspbian.org/raspbian
 RUN cp /usr/bin/qemu-arm-static /raspbian/usr/bin
-RUN chroot /raspbian qemu-arm-static /bin/bash -c '/debootstrap/debootstrap --second-stage'
+RUN chroot /raspbian /debootstrap/debootstrap --second-stage
 
 RUN chroot /raspbian qemu-arm-static /bin/bash -c 'echo "deb https://archive.raspbian.org/raspbian buster main contrib non-free rpi" > /etc/apt/sources.list'
 RUN chroot /raspbian qemu-arm-static /bin/bash -c 'apt-get update && apt-get upgrade -y && rm -rf /var/lib/apt/lists/*'
