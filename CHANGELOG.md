@@ -1,3 +1,10 @@
+## [1.0.7](https://github.com/rickbassham/raspbian-build/compare/v1.0.6...v1.0.7) (2021-01-02)
+
+
+### Bug Fixes
+
+* fix name of image and nameserver ([6dc42a1](https://github.com/rickbassham/raspbian-build/commit/6dc42a1d656969af572fa75adfe7988aabaacedf))
+
 ## [1.0.6](https://github.com/rickbassham/raspbian-build/compare/v1.0.5...v1.0.6) (2021-01-02)
 
 
