@@ -20,5 +20,5 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
       - name: Push to Docker Hub
         run: |
-          docker build -t rickbassham/rasbian-build:latest .
-          docker push rickbassham/rasbian-build:latest
+          docker build -t rickbassham/raspbian-build:latest .
+          docker push rickbassham/raspbian-build:latest
