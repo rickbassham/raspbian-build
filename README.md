@@ -1,7 +1,3 @@
-# python-astro
+# raspbian-build
 
-A base docker image with lots of useful python packages installed for astronomy.
-
-Based on the `python:3.8` docker image.
-
-See `Pipfile` for list of packages installed.
+A base docker image that can be used to build raspberry pi binaries.
