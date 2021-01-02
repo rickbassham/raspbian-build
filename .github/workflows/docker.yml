@@ -9,11 +9,6 @@ jobs:
     steps:
       - name: Check out the repo
         uses: actions/checkout@v2
-      - name: Docker meta
-        id: docker_meta
-        uses: crazy-max/ghaction-docker-meta@v1
-        with:
-          images: rickbassham/raspbian-build
       - name: Login to DockerHub
         uses: docker/login-action@v1
         with:
@@ -25,4 +20,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: buster
+          tags: rickbassham/raspbian-build:buster,rickbassham/raspbian-build:latest
